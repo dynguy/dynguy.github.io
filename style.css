@@ -1,1 +1,85 @@
+/*
+# for ids
+. for classes
+*/
+html{
+  font-family: calibri;
+  text-align: center;
+  min-height: 100%;
+  height: 100%;
+  /*background-color: white; /*#1D2435;*/
+  background: linear-gradient(65deg, #8fa3ba 0%, #b1c8e3 100%);;
+  /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+  color: rgb(58, 58, 58);
+  scroll-behavior: smooth;
+  font-family: Electrolize;
+}
 
+hr{
+  width: 50%;
+  color: rgb(58, 58, 58);
+  margin-top: 2%;
+}
+
+#box{
+  width: 30%;
+  height: 280px;
+  background: #E4E0DF;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0px 10px 9px -6px rgba(0,0,0,0.31);
+  display: inline-block;
+}
+.top-info-box{
+  color: white;
+  opacity: 1;
+  width: 100%;
+  height: 22px;
+  background: #494a52;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+  text-align: center;
+  display: inline-block;
+  
+  
+}
+.intro{
+    /*padding: 100px 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    /*box-shadow: 0px 10px 15px -5px #5c5c5c;*/
+    /*margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;*/
+  /*background-color:rgb(221, 221, 221);*/
+  color: black;
+  text-align: left;
+  padding: 0px 18px;
+  
+}
+a{
+  text-decoration: none;
+  color: blue;
+
+}
+#social_media{
+  font-size: 25px;
+  color: rgb(58, 58, 58);
+}
+.btn{
+  color: rgb(58, 58, 58);
+  /*color: rgb(58, 58, 58);*/
+  
+}
+.btn:hover{
+  
+  color: #5c5c5c;
+  /*
+  color: white;*/
+}
+
+
+footer{
+  margin: 10px;
+}
