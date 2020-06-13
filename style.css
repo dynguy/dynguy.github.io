@@ -24,8 +24,8 @@ hr{
 
 #box{
   margin-top: 50px;
-  width: 550px;
-  min-height: 220px;
+  width: 600px;
+  min-height: 225px;
   background: #E4E0DF;
   opacity: 1;
   border-radius: 10px;
@@ -57,7 +57,7 @@ hr{
  
 }
 p{
-  margin: 5px;
+  margin: 7px;
 }
 a{
   text-decoration: none;
