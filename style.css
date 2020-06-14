@@ -66,12 +66,15 @@ a{
 #social_media{
   font-size: 25px;
   color: rgb(58, 58, 58);
+  margin-bottom: -10px;
 }
 .btn{
   color: rgb(58, 58, 58);
 }
 .btn:hover{
   color: #5c5c5c;
+  transition-duration: 0.5s;
+  font-size: 26px;
 }
 footer{
   margin: 10px;
