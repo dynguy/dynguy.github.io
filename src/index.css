@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: Electrolize;
 }
 body {
   margin: 0;
@@ -7,7 +8,7 @@ body {
   background: linear-gradient(30deg, #516a85 0%, #ccf4f4 100%);
   /* font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
-  font-family: -apple-system, BlinkMacSystemFont, "Cantarell";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Cantarell"; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
