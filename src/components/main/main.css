@@ -33,6 +33,18 @@ hr {
   display: inline-block;
   position: sticky;
 }
+@media (max-width: 500px) {
+  #box {
+    display: block;
+    /* margin-top: auto; */
+    margin-bottom: auto;
+    width: 85%;
+  }
+  .top-info-box {
+    font-size: 1em;
+  }
+}
+
 .intro {
   color: black;
   text-align: left;
