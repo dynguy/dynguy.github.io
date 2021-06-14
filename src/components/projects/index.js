@@ -4,7 +4,7 @@ import "./projects.css";
 export default function Projects(){
     return (
         <div>
-            <p>Hello</p>
+            <p>Work in Progress!</p>
         </div>
     )
 }
