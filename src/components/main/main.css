@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+/* body {
+  background: linear-gradient(30deg, #516a85 0%, #ccf4f4 100%);
+} */
 hr {
   width: 50%;
   color: rgb(58, 58, 58);
