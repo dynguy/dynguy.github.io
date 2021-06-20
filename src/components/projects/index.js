@@ -16,7 +16,7 @@ export default function Projects() {
         <div class="project-title-area">
           Coronavirus Web-Scrapping Discord Bot
         </div>
-        <div class="project-info">This is project 1 testing</div>
+        <div class="project-info">Discord Bot and Web Scrapper combined!</div>
       </section>
       {/* <section class="project-box">
         <div class="project-title-area">Alien Influx</div>
