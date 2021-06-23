@@ -1,9 +1,12 @@
-#social_media {
+.social_media {
   font-size: 18px;
   color: rgb(58, 58, 58);
   margin-bottom: -15px;
 
   font-family: Electrolize;
+}
+.social_media li {
+  display: inline;
 }
 @media (max-width: 500px) {
   #social_media {
@@ -22,7 +25,4 @@
 
 footer {
   margin: 12px;
-}
-li {
-  display: inline;
 }

@@ -7,7 +7,7 @@ import { Nav, NavItem, NavLink } from "reactstrap";
 export default function Footer() {
   return (
     <footer>
-      <div id="social_media">
+      <div class="social_media">
         <Nav navbar>
           <NavItem>
             <NavLink href="#/">

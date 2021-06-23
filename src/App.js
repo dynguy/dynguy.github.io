@@ -14,13 +14,13 @@ function App() {
           <center>
             <Route path={"/"} component={Main} exact />
           </center>
-          
+
           <Route path={"/projects"} component={Projects} />
         </>
       </HashRouter>
-        <center>
-            <Footer />
-        </center>
+      <center>
+        <Footer />
+      </center>
     </div>
   );
 }
