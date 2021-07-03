@@ -3,41 +3,64 @@ import "./projects.css";
 
 export default function Projects() {
   return (
-    <div class="projects">
-      <section class="project-box">
-        <style>
+    <div className="projects">
+      <section className="project-box">
+        {/* <style>
           {"body { background-color: red; }"}
           <div>Hello</div>
-        </style>
-        <div class="project-title-area">
-          <a href="assets/Final_Project_Valence.html"
-            target="_blank"
-          >
+        </style> */}
+        <div className="project-title-area">
+          <a href="assets/Final_Project_Valence.html" target="_blank">
             Predicting the Valence of Pop Songs through Spotify's Audio Features
           </a>
         </div>
-        <div class="project-info">
-          <p>My final project for my data science class.</p>
-          <p>Preview:</p>
-          <a href="assets/Final_Project_Valence.html"
-            target="_blank"
-          >
+        <div className="project-info">
+          <div className="tags_container">
+            <span className="relevant_tags">Python</span>
+            <span className="relevant_tags">Data Science</span>
+            <span className="relevant_tags">Machine Learning</span>
+            <span className="relevant_tags">Pandas</span>
+            <span className="relevant_tags">NumPy</span>
+            <span className="relevant_tags">Seaborn / Matplotlib</span>
+          </div>
+          <p>My final project for my data science class!</p>
+          <ul>
+            <li>
+              Created a tutorial that walks readers through the Data Science
+              Pipeline
+            </li>
+            <li>
+              Data collection/curation, data management/representation,
+              exploratory data analyis, hypothesis testing and machine learning,
+              conclusions
+            </li>
+            <li>
+              Linear Regression was used to see if there was any relationship between a
+              pop song's valence and other audio features.
+            </li>
+          </ul>
+          {/* <p>Preview:</p> */}
+          <a href="assets/Final_Project_Valence.html" target="_blank">
             <img
-              src={process.env.PUBLIC_URL + '/assets/320proj.png'}
+              src={process.env.PUBLIC_URL + "/assets/320proj.png"}
               alt=""
-              width="100%"
-              height="50%"
+              width="25%"
+              height="25%"
               className="content"
-            />          </a>
-
+            />{" "}
+          </a>
         </div>
       </section>
-      <section class="project-box">
-        <div class="project-title-area">
-          Quarantine Discord Bot
-        </div>
-        <div class="project-info">
-          Discord Bot and Web Scraper combined!
+      <section className="project-box">
+        <div className="project-title-area">Quarantine Discord Bot</div>
+        <div className="project-info">
+          <div className="tags_container">
+            <span className="relevant_tags">Python</span>
+            <span className="relevant_tags">Discord.Py</span>
+            <span className="relevant_tags">BeautifulSoup4</span>
+            <span className="relevant_tags">Pandas</span>
+          </div>
+          <p>Discord Bot and Web Scraper combined!</p>
           <ul>
             <li>
               Programmed a Discord bot using Python and discord.py API that
@@ -55,7 +78,7 @@ export default function Projects() {
             </li> */}
           </ul>
           <img
-            src={process.env.PUBLIC_URL + '/assets/quarantine_bot.png'}
+            src={process.env.PUBLIC_URL + "/assets/quarantine_bot.png"}
             alt=""
             width="100%"
             height="50%"
