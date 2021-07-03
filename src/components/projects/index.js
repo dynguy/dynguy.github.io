@@ -5,10 +5,6 @@ export default function Projects() {
   return (
     <div className="projects">
       <section className="project-box">
-        {/* <style>
-          {"body { background-color: red; }"}
-          <div>Hello</div>
-        </style> */}
         <div className="project-title-area">
           <a href="assets/Final_Project_Valence.html" target="_blank">
             Predicting the Valence of Pop Songs through Spotify's Audio Features
@@ -23,22 +19,18 @@ export default function Projects() {
             <span className="relevant_tags">NumPy</span>
             <span className="relevant_tags">Seaborn / Matplotlib</span>
           </div>
-          <p>My final project for my data science class!</p>
-          <ul>
-            <li>
-              Created a tutorial that walks readers through the Data Science
-              Pipeline
-            </li>
-            <li>
-              Data collection/curation, data management/representation,
-              exploratory data analyis, hypothesis testing and machine learning,
-              conclusions
-            </li>
-            <li>
-              Linear Regression was used to see if there was any relationship between a
-              pop song's valence and other audio features.
-            </li>
-          </ul>
+          <p>
+            My final project for my data science class! Created a tutorial that
+            walks readers through the Data Science Pipeline.
+          </p>
+          <p>
+            {" "}
+            The pipeline includes data collection/curation, data
+            management/representation, exploratory data analyis, hypothesis
+            testing and machine learning. Linear Regression was used to see if
+            there was any relationship between a pop song's valence and other
+            audio features.
+          </p>
           {/* <p>Preview:</p> */}
           <a href="assets/Final_Project_Valence.html" target="_blank">
             <img
@@ -59,24 +51,16 @@ export default function Projects() {
             <span className="relevant_tags">Discord.Py</span>
             <span className="relevant_tags">BeautifulSoup4</span>
             <span className="relevant_tags">Pandas</span>
+            <span className="relevant_tags">SEABORN / MATPLOTLIB</span>
           </div>
-          <p>Discord Bot and Web Scraper combined!</p>
-          <ul>
-            <li>
-              Programmed a Discord bot using Python and discord.py API that
-              executes miscellaneous commands and notifies users to enhance
-              server activity.
-            </li>
-            <li>
-              Web-scrapes worldwide coronavirus statistics through a series of
-              user commands using tools from the BeautifulSoup4 library.
-            </li>
-            {/* <li>
-              Generates bar graphs that display total confirmed and death cases
-              from countries with the most coronavirus cases using Matplotlib
-              library.
-            </li> */}
-          </ul>
+          <p>
+            Discord Bot and Web Scraper combined! Using Python and the
+            discord.py API, I programmed a Discord bot that executes
+            miscellaneous commands and notifies users to enhance server
+            activity. It is able to web-scrape worldwide coronavirus statistics
+            through a series of user commands using tools from the
+            BeautifulSoup4 library.
+          </p>
           <img
             src={process.env.PUBLIC_URL + "/assets/quarantine_bot.png"}
             alt=""

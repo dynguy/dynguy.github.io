@@ -52,7 +52,11 @@ export default function Footer() {
 
           <NavItem>
             <NavLink href="#/projects/">
-              <a href="#/projects/" rel="noreferrer" class="btn contact-details">
+              <a
+                href="#/projects/"
+                rel="noreferrer"
+                class="btn contact-details"
+              >
                 <i class="far fa-folder-open"></i> Projects
               </a>
             </NavLink>
