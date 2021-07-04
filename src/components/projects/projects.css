@@ -9,6 +9,7 @@
 
 body {
   background: linear-gradient(30deg, #6889ad 0%, #ccf4f4 100%);
+  /* background: linear-gradient(30deg, #e0add4 0%, #6bc517 100%); */
 }
 .project-box {
   margin-top: 50px;
@@ -20,7 +21,7 @@ body {
   min-height: 500px;
   background: #e4e0df;
   opacity: 1;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: 0px 10px 9px -6px rgba(0, 0, 0, 0.5);
   display: inline-block;
   padding-bottom: 10px;
