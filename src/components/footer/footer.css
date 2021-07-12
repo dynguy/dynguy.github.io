@@ -9,8 +9,8 @@
   display: inline;
 }
 @media (max-width: 500px) {
-  #social_media {
-    font-size: 14px;
+  .social_media {
+    font-size: 15px;
   }
 }
 .btn {
